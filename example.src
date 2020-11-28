@@ -1,0 +1,1 @@
+(\x : Int -> Bool. (s : String)) ((\x : Bool.\y : Int. x)(z : Bool))

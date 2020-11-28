@@ -1,0 +1,1 @@
+(\bool : Int -> (Int -> Int). bool (true : Int) (false : Int)) (\consequence : Int.\alternative : Int. consequence)
