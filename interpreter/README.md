@@ -15,3 +15,7 @@ beta-reduced left expression.
 environments variable is replaced with the substitute expression in the body
 expression.
 `Environment (var, sub, body) -> beta_reduce (substitute sub var body)`
+
+These rules allow the interpreter to not perform work that will be thrown out
+later, for example a particularly complicated expression being applied to a
+constant function.
